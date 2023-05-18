@@ -1,0 +1,86 @@
+html,body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font: normal 300 16px 'Roboto', sans-serif;
+  line-height: 1.5;
+  background-color: #A0E3E4;
+}
+form {
+  margin: 0 auto 25px;
+}
+img {
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+li,
+.comment_div {
+  background-color: #EDE34D;
+  padding: 10px 25px;
+  margin: 5px 0;
+  border-radius: 20px;
+}
+span {
+  font-size: 10px;
+}
+button,
+input,
+textarea {
+  outline: none;
+  border: none;  
+}
+button {
+  background-color: #F1640D;
+  font-size: 12px;
+  color: #FFFFFF;
+  padding: 5px 15px;
+}
+button:hover {
+  background-color: #FFFFFF;
+  color: #F1640D;
+}
+textarea {
+  width: 100%;
+}
+#main {
+  margin-top: 25px;
+}
+#commentBubble {
+  background-color: #fff4f4;
+  width: 100%;
+  min-height: 60px;
+  border-radius: 100px;
+  padding: 10px 25px;
+}
+.bubble1 {
+  margin: 5px 45% 0px auto;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+}
+.bubble2 {
+  margin: 0px 48% 2px auto;  
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #F5F5F5;
+}
+.name::before {
+  display: block;
+  content: '';
+  border: .5px solid rgba(0,0,0,0.1);
+  height: 1px;
+  width: 150px;
+}
+.name,
+.time {
+  font-size: 12px;
+  margin: 0 0 2px;
+  color: #F1640D;
+}
